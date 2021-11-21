@@ -1,11 +1,11 @@
 *{
-    margin: 0;
+    margin: 0px;
     padding: 0;
     font-family: 'Karla', sans-serif;
 }
 
-.second{
-    background: url("C:\Users\PriyankaM\Desktop\Training web\Images\hero-banner.png");
+.second  {
+    /* background: url("C:\Users\PriyankaM\Desktop\Training web\Images\hero-banner.png"); */
     /* width: 100%; */
   /* margin: 0 ;
   
@@ -13,13 +13,16 @@
   justify-content: center;
   z-index: 5;
   align-items: center; */
-  width:100%;
+
+   /* width:100%;
    height: auto;
+   max-height: 10px; */
    background-attachment: fixed;
-   background-size: contain; /* or cover , etc  */
-   background-position: center;
-   background-repeat: no repeat;
-   object-fit: fill;
+   background-size: 100%;
+   /* background-size: contain;  */
+   /* background-position: center; */
+   background-repeat: no repeat; 
+   /* object-fit: fill;  */
 }
 
 .container{
@@ -44,8 +47,9 @@
 
 .menu-icon{
     width: 20px;
-    cursor:pointer;
+    cursor:pointer; 
     display: none;
+    margin-left: 0px 20px 13px; 
 } 
 .navbar-links ul{
     margin: 0;
@@ -87,7 +91,7 @@ nav ul li a{
     text-align: left;
     color: #222;
 }
-button{
+ul button{
     display: inline-flex;
     width: 130px;
   height: 40px;
@@ -112,6 +116,39 @@ button{
     width: 30px;
     height: 21px;
 }
+.p1{
+  width: 547px;
+  height: 78px;
+  margin: 0 320px 100px;
+  font-weight: normal;
+  font-family: Comfortaa;
+  font-size: 32px;
+  line-height: 1.06;
+  text-align: center;
+  color: white;
+  /* position:relative; */
+}
+
+.p2{
+/* width: 653px;
+height: 32px; */
+/* margin: 30px 19px 0;
+font-family: Karla;
+font-size: 16px;
+line-height: 0.69;
+letter-spacing: normal;
+text-align: center;
+color:white; */
+width: 653px;
+  height: 32px;
+  margin: 0px 300px 0;
+font-weight: normal;
+font-family: Comfortaa;
+font-size: 16px;
+line-height: 1.06;
+text-align: center;
+color: white;
+}
 
 .toggle-button .bar{
     height: 3px;
@@ -120,3 +157,59 @@ button{
     border-radius: 10px;
 
 }
+.searchbox{
+    background:white;
+    position: relative;
+    padding-bottom:15px;
+    padding-top: 15px;
+    display: flex;
+    padding: 15px;
+    margin: 0px 300px 50px ;
+    
+}
+.searchbox .input_search{
+    outline: none;
+    border:0;
+    padding-left: 10px;
+    font-family: Karla;
+    font-size: 18px;
+}
+
+.searchbox .searchbtn button{
+    background-color: #00c0b6;
+    width: 127px;
+  height: 20px;
+  font-family: Karla;
+  font-size: 18px;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.11;
+  letter-spacing: -0.2px;
+  text-align: center;
+  color: #fff;
+  margin: 0px 150px;
+}
+.searchbox .searchbtn .btn2{
+  display: inline-flex;
+   width: 170px;
+  height: 40px;
+  padding-top:10px;
+  padding-left: 20px;
+  background-color: #00c0b6;
+  border:none;
+  outline: none;
+  color: white;
+  font-size: 18px;
+  letter-spacing: 1px;
+  margin: 0px 100px;
+}
+
+.text1 {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    /* font-family: 'Comfortaa', cursive; */
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
